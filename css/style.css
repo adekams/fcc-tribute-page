@@ -5,27 +5,22 @@
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
-    
-/*.container{
-    
-}*/
+
 main{
     display: flex;
     flex-direction: column;
     justify-self: center;
     margin: 80px 2% 0 2%;
-    /*margin: 5% 10%;*/
     padding: 0 3%;
     background-color: #eee;
     border-radius: 5px;
     border: none;
     color:#333;
 }
-.heading{
-    
+main .heading{
     text-align: center;
-    
 }
+
 main .heading h1{
     margin: 30px 0;
     font-size: 38px;/*270%*/
@@ -35,7 +30,7 @@ main .heading h2{
     font-size: 16px;
     font-weight: 400;
 }
-figure{
+main figure{
     padding: 8px;
     margin-top: 15px;
     border: none;
@@ -43,30 +38,23 @@ figure{
     border-radius: 0;
     text-align: center;
 }
-img{
+main figure img{
     height: auto;
     max-width: 100%;
 }
 
-figcaption{
+main figure figcaption{
     font-size: 16px;
     margin: 10px 15px;
     color: #5f5f5f;
 }
 
-/*.container main .info{
-    padding: 10px 10px 0px 60px;
-}*/
 .container main .tribute{
-   /* align-self: center;
-    justify-self: center;*/
     margin: 50px 5px 20px 50px;
-
 }
 .container main .tribute p{
     margin-bottom: 40px;
     font-weight: 700;
-   /* margin: 0 15px;*/
     font-size: 19px;
 }
 
@@ -106,9 +94,7 @@ figcaption{
 }
 .container footer hr{
     margin: 30px 2%;
-    border: 0.7px solid rgba(238, 238, 238, 0.933);
-    
-    
+    border: 0.7px solid rgba(238, 238, 238, 0.933);    
 }
 .container footer{
     padding-bottom: 10px;
@@ -133,37 +119,3 @@ figcaption{
     }
     
 }
-
-/*@media (min-width: 768px){
-    main{
-        justify-self: center;
-        align-self: center;
-        padding: 0 7%;
-        margin: 5% 3%;
-        
-    }
-    .container main .tribute{
-        margin: 0 6%;/*40px
-        max-width: 500px;
-        
-    }
-}*/
-
-/*@media (min-width: 900px){
-    main{
-        margin: 5% 8% 0 8%;  
-    }
-    .container main .tribute{
-        margin: 0 16%;/*40px
-        max-width: 800px;
-    }
-    .container main p{
-        padding-right: 120px;
-    }
-    main .heading h1{
-        font-size:62px;
-    }
-    .container footer hr{
-        margin: 30px 8%;
-    }
-}*/
