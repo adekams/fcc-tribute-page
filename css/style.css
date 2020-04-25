@@ -50,12 +50,14 @@ main figure figcaption{
 }
 
 .container main .tribute{
-    margin: 50px 5px 20px 50px;
+    margin: 50px 5px 20px 30px;
+    
 }
 .container main .tribute p{
     margin-bottom: 40px;
     font-weight: 700;
     font-size: 19px;
+    margin-left: -30px;
 }
 
 .container main .tribute .info ul span{
@@ -92,7 +94,7 @@ main figure figcaption{
     color: #477CA7;
     
 }
-.container footer hr{
+/*.container footer hr{
     margin: 30px 2%;
     border: 0.7px solid rgba(238, 238, 238, 0.933);    
 }
@@ -100,7 +102,7 @@ main figure figcaption{
     padding-bottom: 10px;
     text-align: center;
     font-size: 14px;
-}
+}*/
 
 @media (min-width: 664px){
     .container main .tribute .info ul li{
